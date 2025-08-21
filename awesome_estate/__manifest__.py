@@ -3,21 +3,22 @@
     'name': "Estate",
 
     'summary': """
-        Starting module for "Master the Odoo web framework, chapter 1: Build a Clicker game"
+        Real Estate for "Master the Odoo web framework"
     """,
 
     'description': """
-        Starting module for "Master the Odoo web framework, chapter 1: Build a Clicker game"
+        Real Estate for "Master the Odoo web framework"
     """,
 
-    'author': "Odoo",
-    'website': "https://www.odoo.com/",
-    'category': 'Tutorials/AwesomeClicker',
+    'author': "Darren Conroy",
+    'website': "https://www.roadside-technologies.com/",
+    'category': 'Tutorials/AwesomeEstate',
     'version': '0.1',
     'application': True,
     'installable': True,
     'depends': ['base', 'web'],
 
-    'data': [],
+    'data': [
+        'security/ir.model.access.csv',],
     'license': 'AGPL-3'
 }
